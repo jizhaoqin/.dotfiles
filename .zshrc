@@ -127,6 +127,22 @@ alias ranger='python3 ~/Documents/ranger/ranger.py'
 alias lg='lazygit'
 alias ev='evince'
 alias po='poweroff'
+alias l.='ls -d .* --color=auto'
+alias .4='../../../../'
+alias .5='../../../../../'
+alias diff='colordiff'
+# Stop after sending count ECHO_REQUEST packets #
+alias ping='ping -c 5'
+# Do not wait interval 1 second, go fast #
+alias fastping='ping -c 100 -s.2'
+# do not delete / or prompt if deleting more than 3 files at a time #
+alias rm='rm -I --preserve-root'
+# confirmation #
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+[ -f "/home/jizhao/.ghcup/env" ] && source "/home/jizhao/.ghcup/env" # ghcup-env

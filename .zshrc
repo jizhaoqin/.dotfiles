@@ -119,7 +119,6 @@ export PAGER=less
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-alias .apt='sudo apt'
 alias cl='clear'
 alias vi='nvim'
 alias v='nvim'

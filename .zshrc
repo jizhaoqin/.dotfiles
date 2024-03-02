@@ -120,13 +120,9 @@ export PAGER=less
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 alias cl='clear'
-alias vi='nvim'
-alias v='nvim'
 alias ra='python3 ~/Documents/ranger/ranger.py'
 alias ranger='python3 ~/Documents/ranger/ranger.py'
-alias rah='python3 ~/Documents/ranger/ranger.py ~'
-alias ra/='python3 ~/Documents/ranger/ranger.py /'
-alias ram='python3 ~/Documents/ranger/ranger.py ~/my/2023SS'
+alias ram='python3 ~/Documents/ranger/ranger.py ~/my'
 alias lg='lazygit'
 alias ev='evince'
 alias po='poweroff'

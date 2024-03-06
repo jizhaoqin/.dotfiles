@@ -21,3 +21,13 @@ set shiftwidth=4
 
 " color theme
 colorscheme slate
+
+" esc in insert & visual mode
+inoremap jk <esc>
+vnoremap jk <esc>
+
+" esc in command mode
+cnoremap jk <C-C>
+
+" set time interval
+set timeoutlen=500
